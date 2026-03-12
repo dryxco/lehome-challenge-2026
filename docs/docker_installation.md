@@ -39,6 +39,9 @@ docker load -i lehome-challenge.tar.gz
 ```bash
 # Start the container (adjust flags as needed)
 docker run -it lehome-challenge
+
+(if not work)
+-> docker run --rm -it --gpus all --entrypoint /bin/bash lehome-challenge
 # Inside the container, activate the environment and verify
 cd /opt/lehome-challenge
 source .venv/bin/activate
