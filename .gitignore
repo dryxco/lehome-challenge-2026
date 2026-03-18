@@ -71,3 +71,7 @@ tests/
 
 # Docker history
 .isaac-lab-docker-history
+
+# Downloaded scripts and archives
+get-docker.sh
+*.tar.gz

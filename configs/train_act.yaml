@@ -27,7 +27,7 @@ policy:
       shape: [12]
 
 output_dir: outputs/train/act_top_long
-batch_size: 16
+batch_size: 2
 steps: 30000
 save_freq: 5000
 log_freq: 1000
